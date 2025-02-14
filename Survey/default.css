@@ -121,7 +121,7 @@ td, th {
 	}
 }
 
-#divDisplay input[type="radio"] {
+#divDisplay input[type="checkbox"] {
   display: none;
 }
 
@@ -160,27 +160,27 @@ input[type="color"] {
     margin: 0 0 0 5px;
 }
 
-#divDisplay input[type="radio"]:checked+label.rating0, .ratingIndex0 {
+#divDisplay input[type="checkbox"]:checked+label.rating0, .ratingIndex0 {
   background-color: var(--rating0);
 }
 
-#divDisplay input[type="radio"]:checked+label.rating1, .ratingIndex1 {
+#divDisplay input[type="checkbox"]:checked+label.rating1, .ratingIndex1 {
   background-color: var(--rating1);
 }
 
-#divDisplay input[type="radio"]:checked+label.rating2, .ratingIndex2 {
+#divDisplay input[type="checkbox"]:checked+label.rating2, .ratingIndex2 {
   background-color: var(--rating2);
 }
 
-#divDisplay input[type="radio"]:checked+label.rating3, .ratingIndex3 {
+#divDisplay input[type="checkbox"]:checked+label.rating3, .ratingIndex3 {
   background-color: var(--rating3);
 }
 
-#divDisplay input[type="radio"]:checked+label.rating4, .ratingIndex4 {
+#divDisplay input[type="checkbox"]:checked+label.rating4, .ratingIndex4 {
   background-color: var(--rating4);
 }
 
-#divDisplay input[type="radio"]:checked+label.rating5, .ratingIndex5 {
+#divDisplay input[type="checkbox"]:checked+label.rating5, .ratingIndex5 {
   background-color: var(--rating5);
 }
 
