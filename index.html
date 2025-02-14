@@ -58,23 +58,7 @@
 				<a class="alink" href="CardMaker/index.html">ID Maker (Alpha)</a>
 			</div>
 			<div id="Contact">
-				<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-				<script type="text/javascript">
-					window.onload = function () {
-						createCAPCHA();
-					};
-					function createCAPCHA() {
-						grecaptcha.render('reCaptureTest', {
-							'sitekey': '6Le5XrcZAAAAADqSReOD2mfnuxglogRri1RADnzQ',
-							'callback': function (response) {
-								document.getElementById('reCaptureResponse').value = response;
-							},
-							'expired-callback': function () {
-								document.getElementById('reCaptureResponse').value = '';
-							}
-						});
-					}
-				</script>
+
 				<h3>Make A Suggestion</h3>
 				Subject: 
 				<select id="EmailSubject" >
